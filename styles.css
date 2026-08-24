@@ -59,6 +59,18 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   padding:0 24px;
 }
 
+.back-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-family:var(--mono);
+  font-size:0.8rem;
+  color:var(--ink-soft);
+  margin-bottom:18px;
+  transition:color 0.2s;
+}
+.back-link:hover{color:var(--cyan-signal)}
+
 .eyebrow{
   font-family:var(--mono);
   font-size:0.78rem;
@@ -67,15 +79,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   letter-spacing:0.13em;
   color:var(--amber);
   margin-bottom:14px;
-  display:flex;
-  align-items:center;
-  gap:10px;
-}
-.eyebrow::before{
-  content:"";
-  width:22px;height:1px;
-  background:repeating-linear-gradient(90deg,var(--amber) 0 3px,transparent 3px 6px);
-  display:inline-block;
 }
 
 /* Header / Nav */
