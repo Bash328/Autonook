@@ -109,22 +109,14 @@ header{
 }
 .logo-mark{
   width:28px;height:28px;
-  border-radius:14px 14px 3px 3px;
-  border:1.5px solid var(--amber);
-  background:linear-gradient(180deg,rgba(224,166,78,0.18),transparent 70%);
   position:relative;
   flex-shrink:0;
-  box-shadow:0 0 10px rgba(224,166,78,0.35);
+  filter:drop-shadow(0 0 6px rgba(224,166,78,0.35));
 }
-.logo-mark::after{
-  content:"";
-  position:absolute;
-  left:50%;bottom:5px;
-  transform:translateX(-50%);
-  width:5px;height:5px;
-  border-radius:50%;
-  background:var(--amber);
-  box-shadow:0 0 6px 2px rgba(224,166,78,0.6);
+.logo-mark img{
+  width:100%;
+  height:100%;
+  display:block;
 }
 .logo-mark::before{
   content:"";
