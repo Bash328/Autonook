@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# AI crawlers — explicit stance per bot so exceptions are easy to add later
+
+# OAI-SearchBot: powers real-time ChatGPT search citations — allowed
+User-agent: OAI-SearchBot
+Allow: /
+
+# GPTBot: OpenAI model training — allowed by default; revisit if AutoNook wants to opt out
+User-agent: GPTBot
+Allow: /
+
+# Google-Extended: Gemini model training — allowed by default; revisit if AutoNook wants to opt out
+User-agent: Google-Extended
+Allow: /
+
+# ClaudeBot: Anthropic crawler — allowed
+User-agent: ClaudeBot
+Allow: /
+
+# anthropic-ai: Anthropic crawler — allowed
+User-agent: anthropic-ai
+Allow: /
+
+# PerplexityBot: powers Perplexity search citations — allowed
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://autonook.co.za/sitemap.xml

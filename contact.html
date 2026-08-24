@@ -5,6 +5,55 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact — AutoNook</title>
 <meta name="description" content="Get in touch with AutoNook about custom automations, ready-made kits, or an automation audit.">
+<link rel="canonical" href="https://autonook.co.za/contact">
+<meta name="theme-color" content="#14110D">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AutoNook">
+<meta property="og:title" content="Contact — AutoNook">
+<meta property="og:description" content="Get in touch with AutoNook about custom automations, ready-made kits, or an automation audit.">
+<meta property="og:url" content="https://autonook.co.za/contact">
+<meta property="og:image" content="https://autonook.co.za/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_ZA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact — AutoNook">
+<meta name="twitter:description" content="Get in touch with AutoNook about custom automations, ready-made kits, or an automation audit.">
+<meta name="twitter:image" content="https://autonook.co.za/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AutoNook",
+  "url": "https://autonook.co.za/",
+  "logo": "https://autonook.co.za/apple-touch-icon.png",
+  "image": "https://autonook.co.za/og-image.png",
+  "description": "AutoNook builds, sells, and manages automations for South African businesses.",
+  "areaServed": "South Africa"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://autonook.co.za/"},
+    {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://autonook.co.za/contact"}
+  ]
+}
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -38,28 +87,28 @@
       <div class="contact-card corner-frame">
         <div class="mini-arch" style="margin-bottom:0"><span></span></div>
         <div>
-          <h3>Email</h3>
-          <p>hello@autonook.co.za</p>
+          <h2>Email</h2>
+          <p><a href="mailto:hello@autonook.co.za">hello@autonook.co.za</a></p>
         </div>
       </div>
       <div class="contact-card corner-frame">
         <div class="mini-arch" style="margin-bottom:0"><span></span></div>
         <div>
-          <h3>WhatsApp</h3>
+          <h2>WhatsApp</h2>
           <p>+27 00 000 0000 — for quick questions</p>
         </div>
       </div>
       <div class="contact-card corner-frame">
         <div class="mini-arch" style="margin-bottom:0"><span></span></div>
         <div>
-          <h3>Based in</h3>
+          <h2>Based in</h2>
           <p>South Africa — working with businesses nationwide</p>
         </div>
       </div>
       <p style="color:var(--taupe);font-size:0.85rem;margin-top:8px">Placeholder contact details — swap these for your real ones before launch.</p>
     </div>
 
-    <form action="mailto:hello@autonook.co.za" method="post" enctype="text/plain">
+    <form data-contact-form>
       <div class="field">
         <label for="name">Your name</label>
         <input type="text" id="name" name="Name" required>
@@ -77,6 +126,7 @@
         <textarea id="message" name="Message" required></textarea>
       </div>
       <button type="submit" class="btn btn-primary" style="width:100%;text-align:center">Send message</button>
+      <p style="color:var(--taupe);font-size:0.8rem;margin-top:14px;text-align:center">This opens your email app with your message pre-filled — just hit send there.</p>
     </form>
 
   </div>
